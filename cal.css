@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 120vh;
+    width:100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calci{
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px;
+}
+.calci form input{
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 0cap;
+    width: 60px;
+    height: 50px;
+    outline: 0cap;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+form.display{
+    margin: 20px 0;
+    justify-content: flex-end;
+    display: flex;
+}
+form .display input{
+    flex:3;
+    font-size: 80px;
+    box-shadow: none;
+    text-align: right;
+}
+form input.eq{
+    width: 200px;
+}
+form input.arguments{
+    color:aqua;
+}
