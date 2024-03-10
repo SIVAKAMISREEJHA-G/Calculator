@@ -1,7 +1,4 @@
 function myStopFunction() {
-let output = document.getElementById("output");
-
-function myStopFunction() {
     try {
         let result = eval(output.value);
         if (isNaN(result)) {
