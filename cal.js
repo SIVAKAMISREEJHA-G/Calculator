@@ -1,3 +1,4 @@
+function myStopFunction() {
 let output = document.getElementById("output");
 
 function myStopFunction() {
